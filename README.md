@@ -20,29 +20,36 @@ O Submarine Game é um jogo para 4 jogadores onde cada um controla um mergulhado
 Para executar o jogo, você precisará ter o Python 3 e a biblioteca Pygame instalados. Siga os passos abaixo para configurar o ambiente:
 
 1. Clone o repositório:
-	git clone <URL_DO_REPOSITORIO>
+	```
+ 	git clone <URL_DO_REPOSITORIO>
 	cd submarine_game
+ 	```
 
 2. Crie um ambiente virtual (opcional, mas recomendado):
+	```
 	python -m venv venv
 	source venv/bin/activate
+ 	```
 
-3. Instale as dependências
+4. Instale as dependências
+	```
 	pip3 install -r requirements.txt
+ 	```
 
 ## Uso
 
 Para iniciar o jogo, execute o seguinte comando:
 
+```
 python3 main.py
+```
 
 O jogo abrirá uma janela onde você poderá acessar o menu inicial, configurar as opções e iniciar a partida. Siga as instruções na tela para jogar, incluindo a seleção de dificuldade e a movimentação dos jogadores no mapa subaquático.
 
 ## Estrutura do projeto
 
 A estrutura do projeto é organizada da seguinte forma:
-
-│
+```
 ├── main.py                # Ponto de entrada do jogo
 ├── game/                  # Módulo principal do jogo
 │   ├── __init__.py
@@ -60,7 +67,7 @@ A estrutura do projeto é organizada da seguinte forma:
 └── utils/                 # Utilitários e constantes
     ├── __init__.py
     └── constants.py       # Constantes usadas no jogo
-
+```
 ## Como Contribuir
 Contribuições são bem-vindas! Se você deseja contribuir para o projeto, siga estas etapas:
 1. Fork o repositório.
